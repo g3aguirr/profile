@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <link rel = "stylesheet" type = "text/css" href = "css/master.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/projects.js"></script>
+
+  <div id="topBlackBar"/>
+  <div class = "Title">
+    <h1> Projects </h1>
+  </div>
+
+  <div class = "Menu">
+    <ul id="sections">
+      <li>
+        <a href="about-me.html" id = "About Me" >About Me</a>
+      </li>
+      <li>
+        <a href = "experience.html" id = "Experience" >Experience</a>
+      </li>
+      <li>
+        <a href="skills.html" id = "Skills" >Skills</a>
+      </li>
+      <li>
+        <a href = "#" id = "selected" >Projects</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class = "Home">
+    <a href = "index.html"> Home </a>
+   </div>
+
+
+</head>
+
+<body>
+  <div id = "project_1" class = "projects">
+  <u>VR Universe</u>
+  <p hidden id = "project_p_1"><font size = "5"> For this project done in UCSD's VR club, I was responsible for modeling a lever and scripting its functionality in C# after animating it in Unity. The lever was created so that the user would interact with the lever in virtual reality when traveling to different worlds and projects created by the UCSD's VR club.</font></p>
+  <img id = "projectpic_1" src="images/vr.png" alt="projectpic picture" class = "projectpics">
+  </div>
+  <div id = "project_2" class = "projects">
+  <u>Ruhereyet</u>
+  <p hidden id = "project_p_2"><font size = "5"> For this project my group and I designed this web app that would notify users when their party members for a meeting were approaching. I used several APIs such as Facebooks and Google Maps for profiling and for locations and map usage. I was also responsible for more design feedback needs such as using Google Analytics for A/B testing.</font></p>
+  <img id = "projectpic_2" src="images/ruhereyet.png" alt="projectpics picture" class = "projectpics">
+  </div>
+  <div id = "project_3" class = "projects">
+  <u>Translyricate</u>
+  <p hidden id = "project_p_3"><font size = "5"> For this project I lead a group to create a web app for a UCSD course that has users increase their knowledge for a different language and their memory for a songs lyrics. It uses a database to store lyrics and their translations submitted by the users and then is able to display the songlyrics line by line to check for accuracy of the users. It uses Google Translate API to give a hint to the user of what the next word might be. It ultimately records their score and stores it in the database</font></p>
+  <img id = "projectpic_3" src="images/lyric.png" alt="projectpics picture" class = "projectpics">
+  </div>
+  <div id = "project_4" class = "projects">
+  <u>Actor Map</u>
+  <p hidden id = "project_p_4"><font size = "5"> From one of my more advanced data structures class, we were assigned this project where we took a large actor-movie database and find the shortest path between two actors through movies shared. By creating weighted and unweighted graphs we then used the same database to create a "predictor" to infer which two actors would most likely star in a future film.</font></p>
+  <img id = "projectpic_4" src="images/graph.jpg" alt="projectpics picture" class = "projectpics">
+  </div>
+
+  <div id="bottomBlackBar"/>
+</body>
